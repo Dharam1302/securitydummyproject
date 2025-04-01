@@ -1,6 +1,7 @@
 nav {
-  background-color: rgb(83, 80, 81, 0.5);
-  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Glass effect for Safari */
   width: 100%;
   height: 10vh;
   display: flex;
@@ -8,40 +9,33 @@ nav {
   justify-content: space-between;
   position: fixed;
   z-index: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Stronger shadow for separation */
 }
+
 ul {
   list-style: none;
   display: flex;
-  gap: 10px;
-  font-size: 1.5em;
-  padding: 5px;
   gap: 50px;
+  font-size: 1em;
+  padding: 0;
+  margin-right: 50px;
 }
+
 li {
   display: flex;
   align-items: center;
-  position: relative;
-  width: 70px;
-  height: 40px;
-  overflow: hidden;
 }
 
-li::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(253, 88, 187, 0.5);
-  transition: left 0.3s ease-in-out;
+li a {
+  text-decoration: none; /* Remove text decoration */
+  color: #ffffff; /* White text for contrast */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-li:hover::before {
-  border-left: 5px solid;
-  left: 0;
+li a:hover {
+  color: #00bcd4; /* Highlight color on hover */
 }
 
-li:hover {
-  cursor: pointer;
+html {
+  scroll-behavior: smooth;
 }

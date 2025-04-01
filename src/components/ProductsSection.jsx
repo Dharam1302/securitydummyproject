@@ -1,8 +1,8 @@
-const ProductsSection = (() => {
+const ProductsSection = () => {
   return (
-    <section>
+    <section id="products-section">
       <h2>Products Section</h2>
     </section>
   );
-})
+};
 export default ProductsSection;

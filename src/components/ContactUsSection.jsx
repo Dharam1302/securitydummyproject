@@ -1,6 +1,6 @@
 function ContactUsSection() {
   return (
-    <section>
+    <section id="contact-us-section">
       <h2>Contact Us Section</h2>
     </section>
   );

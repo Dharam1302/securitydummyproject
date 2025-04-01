@@ -8,11 +8,18 @@ function NavBar() {
         </h1>
       </div>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Blog</li>
-        <li>conatct</li>
-        <li>login</li>
+        <li>
+          <a href="#landing-section">Landing</a>
+        </li>
+        <li>
+          <a href="#about-us-section">About</a>
+        </li>
+        <li>
+          <a href="#products-section">Products</a>
+        </li>
+        <li>
+          <a href="#contact-us-section">Contact</a>
+        </li>
       </ul>
     </nav>
   );
