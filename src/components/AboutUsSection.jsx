@@ -1,5 +1,7 @@
 import React from "react";
 import "./AboutUsSection.css";
+import ceo from "../assets/babji.png";
+import mentor from "../assets/hanumanthu.jpeg";
 
 const AboutUsSection = () => {
   return (
@@ -13,12 +15,12 @@ const AboutUsSection = () => {
         </p>
         <div className="team">
           <div className="team-member">
-            <img src="/assets/babji.png" alt="Team Member 1" />
+            <img src={ceo} alt="Team Member 1" />
             <h3>Babji</h3>
             <p>Founder & CEO</p>
           </div>
           <div className="team-member">
-            <img src="/assets/hanumanthu.jpeg" alt="Team Member 2" />
+            <img src={mentor} alt="Team Member 2" />
             <h3>Hanumanthu</h3>
             <p>Full Stack Developer</p>
           </div>
