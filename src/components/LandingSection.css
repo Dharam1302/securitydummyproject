@@ -1,0 +1,126 @@
+.landing-section {
+    padding: 50px 20px;
+    /* More padding for prominence */
+    background-color: #f9f9f9;
+    /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* Larger gap for balance */
+    flex-wrap: wrap;
+    min-height: 500px;
+    /* Taller section */
+}
+
+.landing-content {
+    text-align: center;
+    max-width: 600px;
+    /* Wider for more content */
+}
+
+.landing-content h1 {
+    font-size: 40px;
+    /* Bigger headline */
+    color: #333;
+    /* Dark gray */
+    margin: 0 0 15px 0;
+}
+
+.landing-content .subtitle {
+    font-size: 22px;
+    color: #555;
+    /* Medium gray */
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.landing-content p {
+    font-size: 16px;
+    color: #777;
+    /* Light gray */
+    margin: 0 0 25px 0;
+}
+
+.landing-content .highlight {
+    color: #555;
+    /* Medium gray */
+    font-weight: 600;
+    /* Slightly bold for emphasis */
+    background-color: #e9e9e9;
+    /* Very light gray highlight */
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.landing-content .cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Space between buttons */
+}
+
+.landing-content .cta-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.cta-button.primary {
+    background-color: #555;
+    /* Medium gray */
+    color: #fff;
+    /* White text */
+}
+
+.cta-button.primary:hover {
+    background-color: #333;
+    /* Darker gray */
+}
+
+.cta-button.secondary {
+    background-color: transparent;
+    color: #555;
+    /* Medium gray text */
+    border: 1px solid #ddd;
+    /* Light border */
+}
+
+.cta-button.secondary:hover {
+    background-color: #ddd;
+    /* Light gray fill */
+    color: #333;
+}
+
+.landing-image-container {
+    position: relative;
+    /* For overlay positioning */
+    max-width: 450px;
+}
+
+.landing-image {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    /* Taller image */
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white */
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #555;
+}
