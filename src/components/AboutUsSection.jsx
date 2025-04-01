@@ -13,12 +13,12 @@ const AboutUsSection = () => {
         </p>
         <div className="team">
           <div className="team-member">
-            <img src="team-member1.jpg" alt="Team Member 1" />
+            <img src="/assets/babji.png" alt="Team Member 1" />
             <h3>Babji</h3>
             <p>Founder & CEO</p>
           </div>
           <div className="team-member">
-            <img src="team-member2.jpg" alt="Team Member 2" />
+            <img src="/assets/hanumanthu.jpeg" alt="Team Member 2" />
             <h3>Hanumanthu</h3>
             <p>Full Stack Developer</p>
           </div>
