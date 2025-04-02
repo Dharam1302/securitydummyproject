@@ -5,7 +5,7 @@ import mentor from "../assets/hanumanthu.jpeg";
 
 const AboutUsSection = () => {
   return (
-    <section className="about-us" id="about-us-section">
+    <section className="about-us" id="about">
       <div className="container">
         <h2>About Us</h2>
         <p>

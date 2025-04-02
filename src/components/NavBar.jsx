@@ -9,17 +9,18 @@ function NavBar() {
       </div>
       <ul>
         <li>
-          <a href="#landing-section">Landing</a>
+          <a href="#landing">Home</a>
         </li>
         <li>
-          <a href="#about-us-section">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#products-section">Products</a>
+          <a href="#product">product</a>
         </li>
         <li>
-          <a href="#contact-us-section">Contact</a>
+          <a href="#contact">conatct</a>
         </li>
+        <li>login</li>
       </ul>
     </nav>
   );

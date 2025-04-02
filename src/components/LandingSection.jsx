@@ -3,11 +3,7 @@ import landingImage from "../assets/landing-image.jpg"; // Local image
 
 function LandingSection() {
   return (
-    <section
-      className="landing-section"
-      id="landing-section"
-      style={{ paddingTop: "80px" }}
-    >
+    <section className="landing-section" id="landing">
       <div className="landing-content">
         <h1>Welcome to Our Site</h1>
         <h2 className="subtitle">Your one-stop shop for amazing products</h2>

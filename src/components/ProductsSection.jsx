@@ -1,6 +1,6 @@
 const ProductsSection = () => {
   return (
-    <section id="products-section">
+    <section id="product">
       <h2>Products Section</h2>
     </section>
   );
